@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:onClick="undercons"
+        android:src="@drawable/foundation" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:onClick="undercons"
+        android:layout_toRightOf="@+id/imageButton5"
+        android:src="@drawable/jewellery" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/imageButton6"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:onClick="desfun"
+        android:src="@drawable/ring" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_below="@+id/imageButton4"
+        android:onClick="mynail"
+        android:src="@drawable/nail" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_alignRight="@+id/imageButton2"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginRight="24dp"
+        android:onClick="perfumes"
+        android:src="@drawable/perfume" />
+
+</RelativeLayout>

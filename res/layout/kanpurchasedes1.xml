@@ -1,0 +1,175 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:visibility="visible" >
+   
+   <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">		
+      <TextView
+         android:text="Product Details"
+         android:layout_width="wrap_content"
+         android:layout_gravity="left"
+         android:gravity="left"
+         android:textStyle="normal"
+         android:textColor="#000099"
+         android:textSize="20dp"
+         android:layout_column="2"
+         android:layout_height="wrap_content"/>
+   </TableRow>   
+   <TableRow>	
+      <TextView
+         android:text="Name    "
+         android:textColor="#cc0000"
+         android:textStyle="normal"
+         android:textSize="16dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />
+		<TextView
+         android:text="Zoya polishset"
+         android:textStyle="normal"
+         android:textSize="14dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />      
+   </TableRow>   
+   <TableRow>
+	    <TextView
+         android:text="ID      "
+         android:textStyle="normal"
+         android:textColor="#cc0000"
+         android:textSize="16dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />
+	    <TextView
+         android:text="PIO3345DFGER"
+         android:textStyle="normal"
+         android:textSize="14dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />    	    
+   </TableRow>
+   <TableRow >
+        <TextView
+         android:text="Image"
+         android:textStyle="normal"
+         android:textColor="#cc0000"
+         android:textSize="16dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />
+        <ImageView
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nail11"/>
+   </TableRow>
+   <TableRow>
+        <TextView
+         android:text="Description  "
+         android:textStyle="normal"        
+         android:textColor="#cc0000"
+         android:textSize="16dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />
+        <TextView
+         android:text="Water proof,Bright color"
+         android:textStyle="normal"
+         android:textSize="14dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />
+   </TableRow>
+    <TableRow>
+	    <TextView
+         android:text="Material"
+         android:textColor="#cc0000"
+         android:textStyle="normal"
+         android:textSize="16dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />
+	    <TextView
+         android:text="Color,Glitter"
+         android:textStyle="normal"
+         android:textSize="14dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />    	    
+   </TableRow>
+   <TableRow>
+        <TextView
+         android:text="Warrenty "
+         android:textColor="#cc0000"
+         android:textStyle="normal"
+         android:textSize="16dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />
+        <TextView
+         android:text="6 months"
+         android:textStyle="normal"
+         android:textSize="14dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />
+   </TableRow>
+   <TableRow>
+        <TextView
+         android:text="Contains"
+         android:textColor="#cc0000"
+         android:textStyle="normal"
+         android:textSize="16dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />
+        <TextView
+         android:text="12 color pcs"
+         android:textStyle="normal"
+         android:textSize="14dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />
+   </TableRow>
+   <TableRow>
+	 <TextView
+         android:text="Ratings"
+         android:textColor="#cc0000"
+         android:textStyle="normal"
+         android:textSize="16dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1" />
+	<RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:rating="4" />
+   </TableRow>   
+
+   <TableRow
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:visibility="visible" >
+		
+      <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"  
+         android:layout_centerVertical="true" 
+         android:layout_gravity="left"
+         android:textColor="#cc0000"
+         android:textStyle="normal"
+         android:onClick="buyfun"
+         android:text="Purchase"         
+         android:layout_column="2" />
+   </TableRow>
+   </TableLayout>
