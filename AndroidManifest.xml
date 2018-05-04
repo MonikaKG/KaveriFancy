@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kaveri"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.kaveri.Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.kaveri.Home"
+            android:label="@string/app_name" >
+         </activity>
+         
+         <activity
+            android:name="com.example.kaveri.Aboutus"
+            android:label="@string/app_name" >
+         </activity>
+         
+         <activity
+            android:name="com.example.kaveri.Collections"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+         <activity
+            android:name="com.example.kaveri.Earings"
+            android:label="@string/app_name" >
+         </activity>
+        
+         
+         <activity
+            android:name="com.example.kaveri.Earings1"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+         <activity
+            android:name="com.example.kaveri.KanMainActivity1"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+         
+         <activity
+            android:name="com.example.kaveri.kanMainActivity21"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+         <activity
+            android:name="com.example.kaveri.kanMainActivity41"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+         <activity
+            android:name="com.example.kaveri.kanMainActivity411"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+         
+         <activity
+            android:name="com.example.kaveri.kanMainActivity42"
+            android:label="@string/app_name" >
+         </activity>
+        
+         
+         
+         <activity
+            android:name="com.example.kaveri.kanMainActivity421"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+         <activity
+            android:name="com.example.kaveri.kanMainActivity423"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+         <activity
+            android:name="com.example.kaveri.kanMainActivity43"
+            android:label="@string/app_name" >
+         </activity>
+         
+         <activity
+            android:name="com.example.kaveri.kanMainActivity431"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+         
+         <activity
+            android:name="com.example.kaveri.kanMainActivity44"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+         <activity
+            android:name="com.example.kaveri.kanMainActivity441"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+         <activity
+            android:name="com.example.kaveri.kanMainActivity45"
+            android:label="@string/app_name" >
+         </activity>
+         
+         <activity
+            android:name="com.example.kaveri.kokiMainActivity"
+            android:label="@string/app_name" >
+         </activity>
+         
+         <activity
+            android:name="com.example.kaveri.kokiMainActivity1"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+         <activity
+            android:name="com.example.kaveri.MainActivity43"
+            android:label="@string/app_name" >
+         </activity>
+         
+         
+          <activity
+            android:name="com.example.kaveri.MainActivity44"
+            android:label="@string/app_name" >
+         </activity>
+         
+          
+           <activity
+            android:name="com.example.kaveri.MainActivity45"
+            android:label="@string/app_name" >
+         </activity>
+         
+           
+            <activity
+            android:name="com.example.kaveri.MainActivity46"
+            android:label="@string/app_name" >
+         </activity>
+         
+            
+             <activity
+            android:name="com.example.kaveri.Profile"
+            android:label="@string/app_name" >
+         </activity>
+         
+             
+              <activity
+            android:name="com.example.kaveri.Purchase"
+            android:label="@string/app_name" >
+         </activity>
+         
+              
+               <activity
+            android:name="com.example.kaveri.Purchase1"
+            android:label="@string/app_name" >
+         </activity>
+         
+               
+                <activity
+            android:name="com.example.kaveri.Purchasedes"
+            android:label="@string/app_name" >
+         </activity>
+         
+                
+                <activity
+            android:name="com.example.kaveri.Purchasedes1"
+            android:label="@string/app_name" >
+         </activity>
+         
+                
+                <activity
+            android:name="com.example.kaveri.Signin"
+            android:label="@string/app_name" >
+         </activity>
+         
+                
+                <activity
+            android:name="com.example.kaveri.Signup"
+            android:label="@string/app_name" >
+         </activity>
+         
+                
+                <activity
+            android:name="com.example.kaveri.Update1"
+            android:label="@string/app_name" >
+         </activity>
+         
+                
+                <activity
+            android:name="com.example.kaveri.Update2"
+            android:label="@string/app_name" >
+         </activity>
+         
+                
+                <activity
+            android:name="com.example.kaveri.VivzDatabaseAdapter"
+            android:label="@string/app_name" >
+         </activity>
+         
+                
+                
+                
+                
+                
+         
+    </application>
+
+</manifest>
